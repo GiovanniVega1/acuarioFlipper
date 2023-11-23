@@ -1,9 +1,14 @@
 import React from "react";
-import "../../normalize.css";
+//import "../../normalize.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { UncontrolledExample } from "../carrusel/ExampleCarouselImage";
+import '../../index.css';
 
 export const Services = () => {
   return (
     <>
+      <UncontrolledExample />
+
       <section id="boletos" class="boletos bg-verde">
       <h2>Nuestros Servicios</h2>
       <p>
