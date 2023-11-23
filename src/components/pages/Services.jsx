@@ -4,106 +4,28 @@ import "../../normalize.css";
 export const Services = () => {
   return (
     <>
-      <h1>Services</h1>
-      <div>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt
-        itaque, perferendis necessitatibus corrupti ea magni voluptatibus est
-        ipsa. Nulla praesentium dolore eos alias incidunt, odio et eaque, sunt
-        vitae corporis animi, itaque architecto. Sunt minima nostrum fugiat
-        quibusdam voluptate dolore illo cupiditate quam odio sequi. Consequatur
-        tempora ullam, ipsam molestias dolor dolores tempore. Molestias, error
-        porro tenetur delectus numquam animi aut quod consequuntur? Dolor sequi
-        quisquam ex, eaque explicabo, labore maxime veniam voluptas enim
-        recusandae architecto est voluptates optio libero officiis consectetur
-        possimus voluptate ipsam alias velit veritatis reprehenderit
-        repudiandae. Ullam praesentium inventore minima eius dolorem omnis fugit
-        facilis.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-        libero laboriosam quia totam, ducimus dolorum velit voluptates ipsam ad
-        labore repellendus! Reprehenderit corporis labore totam est quas natus
-        non quis? Atque porro obcaecati error hic perspiciatis itaque
-        reprehenderit ut aperiam, ipsa, repellendus voluptatum, architecto sint
-        delectus. Dolorem, officia nostrum? Quae similique eveniet, animi
-        laborum impedit commodi, deleniti cum adipisci atque quidem culpa
-        incidunt placeat id rem dolorum sit eligendi sapiente ea sed, voluptate
-        voluptates minima pariatur ipsam delectus. Inventore deserunt
-        exercitationem repudiandae ducimus nihil, assumenda vel ex optio aut
-        voluptates nostrum dolor beatae in voluptatem. Adipisci excepturi
-        nesciunt ab soluta.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
-      <br />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aut a,
-        expedita quaerat, facere iste earum deserunt numquam dignissimos
-        obcaecati voluptatem repellendus nemo eveniet corporis esse voluptatibus
-        facilis laboriosam natus quam sapiente ipsum ipsa, repudiandae qui
-        alias. Ut inventore commodi quae ea excepturi, soluta distinctio
-        laboriosam cum voluptatem consectetur cupiditate neque eius esse placeat
-        consequatur assumenda, unde atque nemo modi perferendis? Saepe
-        molestiae, earum at dicta sit iusto dignissimos vero voluptate voluptas
-        qui ullam molestias omnis cupiditate dolores sunt incidunt ab nisi eaque
-        culpa dolorum? Provident eos doloribus soluta maxime obcaecati quam, a,
-        quod blanditiis dolores odit aliquid quis distinctio.
-      </div>
+      <section id="boletos" class="boletos bg-verde">
+      <h2>Nuestros Servicios</h2>
+      <p>
+        En Aquarium Flipper, nuestro compromiso es brindar una experiencia completa para toda la familia. Además de nuestros emocionantes espectáculos y programas educativos, ofrecemos un tranquilo "Paseo Submarino" en nuestro submarino especialmente diseñado. Este paseo te llevará a las profundidades del océano sin mojarte, donde podrás observar a las criaturas marinas en su hábitat natural a través de ventanas panorámicas.
+      </p>
+      <br /><br />
+      <p>
+        ¿Eres un amante de la aventura? Nuestra experiencia "Nadar con Tiburones" es perfecta para ti. Bajo la supervisión de nuestros instructores certificados, podrás sumergirte en un tanque con tiburones y experimentar la emoción de estar cerca de estos magníficos depredadores. Una actividad que seguramente te dejará con recuerdos inolvidables.
+      </p>
+      <br /><br />
+      <p>
+        Para los más pequeños, ofrecemos fiestas de cumpleaños temáticas en el acuario. Celebra tu día especial rodeado de peces exóticos y amigos marinos. Nuestros paquetes de fiesta incluyen un recorrido privado, actividades interactivas y una torta de cumpleaños submarina. ¡Será una celebración que tus hijos no olvidarán!
+      </p>
+      <br /><br />
+      <p>
+        En Aquarium Flipper, también estamos comprometidos con la sostenibilidad y la conservación marina. Ofrecemos programas de adopción de tortugas marinas, donde los visitantes pueden contribuir directamente a la preservación de estas especies en peligro de extinción. Cada vez que nos visitas, ayudas a proteger nuestros océanos y su vida marina.
+      </p>
+      <br /><br />
+      <p>
+        Aquarium Flipper se enorgullece de ser un centro de investigación y conservación. Participamos en proyectos de investigación científica para contribuir al entendimiento de los ecosistemas marinos y su conservación. Nuestros visitantes pueden unirse a nuestros científicos en expediciones de recolección de datos o aprender más sobre nuestros esfuerzos en nuestros talleres de conservación.
+      </p>
+      </section>
     </>
   );
 };

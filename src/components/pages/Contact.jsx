@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../normalize.css";
 import "../stryleSheet/styles.css"
 
 export const Contact = () => {
+
   return (
     <>
     <section>
@@ -14,7 +15,7 @@ export const Contact = () => {
                     <div class="contenedor-campos">
                         <div class="campo">
                             <label>Nombre</label>
-                            <input class="input-text" type="text" placeholder="Tu Nombre"/>
+                            <input class="input-text" type="text" placeholder="Tu Nombre" />
                         </div>
 
                         <div class="campo">
