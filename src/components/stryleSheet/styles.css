@@ -47,12 +47,12 @@
 
 }
 .contenido-acuario .fecha {
-    color: #F53756;
+    color: #FCBF49;
     font-weight: 700;
 }
 
 .lineup {
-    background-color: #F53756;
+    background-color: #D62828;
     padding: 5rem 0;
 }
 
@@ -116,13 +116,13 @@
 }
 
 .bg-amarillo {
-    background-color: #FEF46D;
+    background-color: #F77F00;
     li:nth-child(odd) {
         background-color: darken(#FEF46D, 15%);
     }
 }
 .bg-verde {
-    background-color: #4CB8B3;
+    background-color: #FCBF49;
     li:nth-child(odd) {
         background-color: darken(#4CB8B3, 10%);
     }
@@ -173,11 +173,13 @@
 }
 
 .pase-header {
-    background-color: #F53756;
-    p {
-        text-transform: uppercase;
-        font-size: 1.6rem;
-    }
+    background-color: #003049;
+}
+
+.pase-header p {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #FFFFFF;
 }
 
 .pase-body {
@@ -200,21 +202,19 @@
 }
 
 .pase-footer {
-    background-color: #752F97;
-    p {
-        font-size: 2.4rem;
-        font-weight: 700;
-    }
+    background-color: #F77F00;
 }
 
-.site-footer {
-    background-color: #F53756;
+.pase-footer p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#FFFFFF ;
+}
+
+.site-footer p {
+    background-color: #003049;
     padding: 1rem;
-    p {
-        margin: 0;
-        text-align: center;
-        color: #FFFFFF;
-    }
+    color: #FFFFFF;
 }
 
 .formulario {

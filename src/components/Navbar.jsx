@@ -10,9 +10,11 @@ export const Navbar = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        Fliper
+        Flipper
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+        <span></span>
+        <span></span>
         <span></span>
         <span></span>
         <span></span>
@@ -29,6 +31,9 @@ export const Navbar = () => {
         </li>
         <li>
           <NavLink to="/comments">Comentarios</NavLink>
+        </li>
+        <li>
+          <NavLink to="/auth/login">Login</NavLink>
         </li>
       </ul>
     </nav>

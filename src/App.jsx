@@ -3,6 +3,7 @@ import "./App.css";
 import "./normalize.css";
 import { Navbar } from "./components/Navbar";
 import { About, Contact, Home, Services, Comments} from "./components/pages";
+import { AuthRoutes } from "./auth/routes/AuthRoutes";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/comments" element={<Comments />} />
+        <Route path="/auth/*" element={ <AuthRoutes /> } />
+        
       </Routes>
     </div>
   );
