@@ -9,7 +9,7 @@ export const Services = () => {
     <>
       <UncontrolledExample />
 
-      <section id="boletos" class="boletos bg-verde">
+      <section>
       <h2>Nuestros Servicios</h2>
       <p>
         En Aquarium Flipper, nuestro compromiso es brindar una experiencia completa para toda la familia. Además de nuestros emocionantes espectáculos y programas educativos, ofrecemos un tranquilo "Paseo Submarino" en nuestro submarino especialmente diseñado. Este paseo te llevará a las profundidades del océano sin mojarte, donde podrás observar a las criaturas marinas en su hábitat natural a través de ventanas panorámicas.
