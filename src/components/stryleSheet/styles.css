@@ -298,3 +298,10 @@
 .w-sm-100 {
     width: 100%;
 }
+
+.list_contact{
+    list-style-type: disc; 
+    font-size: 16px;
+    line-height: 1.5; 
+    margin-left: 20px;
+}
