@@ -1,8 +1,28 @@
-import { Button, Grid, TextField, Typography } from "@mui/material";
+import { Button, Grid, List, ListItem, ListItemButton, ListItemIcon, ListItemText, TextField, Typography } from "@mui/material";
+import { useDispatch, useSelector } from "react-redux";
+import { startNewComent } from '../../store/flipper/thunks';
+import { TurnedInNot } from "@mui/icons-material";
+import { useForm } from "../../hooks";
 
 
 export const Comments = () => {
+
+    const dispatch = useDispatch();
+    const { isSaving, comments } = useSelector( state => state.flipper );
+    const { quest1, quest2, quest3, quest4, onInputChange } = useForm({
+      quest1: '',
+      quest2: '',
+      quest3: '',
+      quest4: '',
+    });
+
+    const  onClickNewComment = () => {
+      dispatch( startNewComent({ quest1, quest2, quest3, quest4 }) );
+      location.reload();
+    }
+
     return (
+      <>
       <Grid
       container
       spacing={ 0 }
@@ -30,6 +50,9 @@ export const Comments = () => {
                 type="text" 
                 placeholder="Tu respuesta" 
                 fullWidth
+                name='quest1'
+                value={ quest1 }
+                onChange={ onInputChange }
                 />
                 </Grid>
 
@@ -39,6 +62,9 @@ export const Comments = () => {
                 type="text" 
                 placeholder="Tu respuesta" 
                 fullWidth
+                name='quest2'
+                value={ quest2 }
+                onChange={ onInputChange }
                 />
                 </Grid>
 
@@ -48,6 +74,9 @@ export const Comments = () => {
                 type="text" 
                 placeholder="Tu respuesta" 
                 fullWidth
+                name='quest3'
+                value={ quest3 }
+                onChange={ onInputChange }
                 />
                 </Grid>
 
@@ -57,22 +86,80 @@ export const Comments = () => {
                 type="text" 
                 placeholder="Tu respuesta" 
                 fullWidth
+                name='quest4'
+                value={ quest4 }
+                onChange={ onInputChange }
                 />
                 </Grid>
 
                 <Grid container spacing={ 2 } sx={{ mb: 2, mt: 1 }}>
                   <Grid item xs={ 12 }>
-                    <Button variant="contained" fullWidth>
+                    <Button 
+                    disabled={ isSaving }
+                    onClick={ onClickNewComment }
+                    variant="contained" 
+                    fullWidth>
                       Enviar
                     </Button>
                   </Grid>
                 </Grid>
               </Grid>
-            </form>
+            </form>  
+        </Grid>
+      </Grid>
+
+      <Grid
+      container
+      spacing={ 0 }
+      direction="column"
+      alignItems="center"
+      justifyContent="center"
+      sx={{ backgroundColor: '#003049', padding: 4 }}>
+
+        <Grid item 
+          className="box-shadow"
+          xs={ 3 }
+          sx={{ 
+            width: { md: 800 } ,
+            backgroundColor: '#EAE2B7',
+            padding: 3,
+            borderRadius: 2 }}>
+
+            <Typography variant="h3" sx={{ mb: 1 }} >Comentarios</Typography>
+            <Typography variant="h4" sx={{ mb: 1 }} >Comentarios realizados</Typography>
+
+            <List>
+              {
+                comments.map( comment => (
+                  <ListItem key={ comment.id } disablePadding>
+                    <ListItemButton>
+                      <ListItemIcon>
+                        <TurnedInNot />
+                      </ListItemIcon>
+                      <Grid container>
+                        <ListItemText primary={ 'Comentarios:' } />
+                        <ListItemText secondary={ 
+                          <div>
+                            Respuesta a pregunta 1: {comment.quest1}
+                            <br />
+                            Respuesta a pregunta 2: {comment.quest2}
+                            <br />
+                            Respuesta a pregunta 3: {comment.quest3}
+                            <br />
+                            Respuesta a pregunta 4: {comment.quest4}
+                          </div>
+                          } />
+                      </Grid>
+                    </ListItemButton>
+                  </ListItem>
+                ) )
+              }
+            </List>
                 
         </Grid>
 
       </Grid>
+      </>
     );
   };
   

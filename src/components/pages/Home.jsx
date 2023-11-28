@@ -6,7 +6,7 @@ import "../stryleSheet/styles.css";
 export const Home = () => {
   return (
     <>
-      <div class="portada">
+      <div className="portada animate__animated animate__fadeIn animate__faster">
         <div class="contenido-portada">
             <h2>Acuario Flipper</h2> 
             <div class="ubicacion">
