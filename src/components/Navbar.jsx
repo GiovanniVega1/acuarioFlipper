@@ -17,7 +17,6 @@ export const Navbar = () => {
         <span></span>
         <span></span>
         <span></span>
-        <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
@@ -31,9 +30,6 @@ export const Navbar = () => {
         </li>
         <li>
           <NavLink to="/comments">Comentarios</NavLink>
-        </li>
-        <li>
-          <NavLink to="/auth/login">Login</NavLink>
         </li>
       </ul>
     </nav>
